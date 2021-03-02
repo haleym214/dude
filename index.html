@@ -7,14 +7,16 @@
 </head>
 <body>
     <h1>hello</h1>
-    <form method="post" name="Contact Us Form" action="contactSubmit.php" data-netflify="true">
-        <input type="text" class="inp-field" placeholder="Name" name="name">
-        <input type="text" class="inp-field" placeholder="Email" name="email">
-        <input type="text" class="inp-field" placeholder="Phone Number" name="phone">
-        <img src="./img/hc0110.png" aligh="middle"><br>
-        <input type="text" class="inp-field" placeholder="Enter Above Code" name="hcode">
-        <textarea class="inp-field msg-area" placeholder="Message" name="message"></textarea>
-        <button type="submit" class="submit-btn">SUBMIT</button>
-     </form>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
 </body>
 </html>
